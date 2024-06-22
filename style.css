@@ -1,0 +1,66 @@
+div > div > div {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    display: inline-block; 
+    position: relative;
+}
+
+div > div> div > div {
+    height: 200px;
+    width:200px;
+    background-color: blue;
+    position: absolute;
+    display: inline-block;
+    top: 250px;
+}
+
+p{
+    margin-top: -20px;
+}
+
+div > div> div > div >div{
+    height: 200px;
+    width:200px;
+    background-color: orange;
+    position: absolute;
+    display: inline-block;
+    
+}
+
+div > div > div> div > div >div{
+    height: 200px;
+    width:200px;
+    background-color: green;
+    position: absolute;
+    display: inline-block;
+    
+}
+
+div > div > div > div > div > div > div{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    position: absolute;
+    display: inline-block;
+}
+
+.roja{
+    color: red;
+}
+
+.azul{
+    color: blue;
+}
+
+.anaranjado{
+    color: orange;
+}
+
+.verde{
+    color:green;
+}
+
+.amerillo{
+    color:yellow;
+}
